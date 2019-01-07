@@ -133,11 +133,21 @@ Guideline at http://www.pyrunner.com/weblog/2016/05/26/compressed-sensing-python
 Required libraries: 
 
 - `scipy`
+
 - `numpy`
+
 - `cvxpy`: if you use Python 3 you must use pip: `pip install cvxpy`
 
+  or:
 
+   `conda create -n env_py2 python=2.7 ; activate env_py2; conda install notebook ipykernel; ipython kernel install --user` 
 
+  `conda install -n env_py2 scipy numpy`
+
+  ```
+  conda install -n env_py2 -c conda-forge lapack
+  conda install -n env_py2 -c cvxgrp cvxpy
+  ```
 
 
 
