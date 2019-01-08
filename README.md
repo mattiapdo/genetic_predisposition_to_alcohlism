@@ -11,6 +11,9 @@ If you extract all the files (subdirectories contain compressed files also) is m
 **To do list:**
 
 - [ ] load data into python
+  - [x] the single run
+  - [ ] the single subject
+  - [ ] all the subjects
 - [x] get a clue about how the dataset is logically structured
 - [x] get a clue about how to do signal reconstruction
 - [ ] get a clue about how to set up the classification task
